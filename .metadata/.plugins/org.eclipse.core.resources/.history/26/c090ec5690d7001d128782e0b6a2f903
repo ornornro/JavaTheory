@@ -1,0 +1,16 @@
+package j17_컬렉션.HashMap;
+
+public class Dictionary {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 축구 -> soccer
+		 * 야구 -> baseball
+		 * 농구 -> basketball
+		 * 골프 -> golf
+		 */
+		
+	}
+
+}

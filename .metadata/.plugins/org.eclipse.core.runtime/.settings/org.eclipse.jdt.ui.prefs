@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="j17_\uCEEC\uB809\uC158.ArrayList.User"><rhs name\="j17_\uCEEC\uB809\uC158.ArrayList.User"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="j18_JSON.User"><rhs name\="j18_JSON.User"/></lhs><lhs name\="j18_JSON.User2"><rhs name\="j18_JSON.User2"/></lhs><lhs name\="com.google.gson.JsonElement"><rhs name\="com.google.gson.JsonObject"/></lhs><lhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.AbstractTest"><rhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.AbstractTestImpl"/></lhs><lhs name\="java.util.EventListener"><rhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.windowBuilder.SearchButtonClick"/></lhs><lhs name\="java.awt.event.MouseListener"><rhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.windowBuilder.SearchButtonClick"/></lhs><lhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.role.PrincipalDetails"><rhs name\="j19_\uC775\uBA85\uD074\uB798\uC2A4.role.PrincipalDetails"/></lhs><lhs name\="java.util.Set"><rhs name\="java.util.HashSet"/></lhs><lhs name\="j20_\uC608\uC678\uCC98\uB9AC.ExceptionTest2"><rhs name\="j20_\uC608\uC678\uCC98\uB9AC.ExceptionTest2"/></lhs></history>
+content_assist_number_of_computers=15
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=1
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

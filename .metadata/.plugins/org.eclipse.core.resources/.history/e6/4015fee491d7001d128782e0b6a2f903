@@ -1,0 +1,33 @@
+package j17_컬렉션.HashMap;
+
+import java.util.Scanner;
+
+public class Dictionary {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 축구 -> soccer
+		 * 야구 -> baseball
+		 * 농구 -> basketball
+		 * 골프 -> golf
+		 */
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("검색어를 입려하세요: ");
+		String search = scanner.nextLine();
+		
+		if(search.equals("축구")) {
+			System.out.println(search + " -> soccer");
+		} else if(search.equals("야구")) {
+			System.out.println(search + " -> baseball");
+		} else if(search.equals("농구")) {
+			System.out.println(search + " -> basketball");
+		} else if(search.equals("골프")) {
+			System.out.println(search + " -> golf");
+		}
+		
+	}
+
+}

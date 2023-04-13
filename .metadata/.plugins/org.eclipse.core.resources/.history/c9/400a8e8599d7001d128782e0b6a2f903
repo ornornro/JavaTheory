@@ -1,0 +1,30 @@
+package j17_컬렉션.user;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * {
+		 * "no" = 1,
+		 * "message" = "1page list",
+		 * "data" = [
+		 * 		{
+		 * 			"name" = "최연호",
+		 * 			"address" = "부산 진구",
+		 * 			"contact" = "010-3300-4698",
+		 * 			"sex" = 1
+		 * 		},
+		 * 		{
+		 * 			"name" = "홍길동",
+		 * 			"address" = "부산 서구",
+		 * 			"contact" = "010-1111-1111",
+		 * 			"sex" = 0
+		 * 		}
+		 * 		]
+		 * }
+		 */
+		
+	}
+
+}

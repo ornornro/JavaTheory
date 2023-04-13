@@ -1,0 +1,51 @@
+package j19_익명클래스.role;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+
+public class PrincipalDetails {
+
+	public static void main(String[] args) {
+		
+		String strRoles = "USER_ROLE, ADMIN_ROLE,MANAGE_ROLE";
+		/*
+		 * strRoles를 roleArray 라는 배열에 
+		 * USER_ROLE
+		 * ADMIN_ROLE
+		 * MANAGE_ROLE
+		 * 를 넣고 이 배열을 roles 에 넣기.
+		 */
+		
+		List<String> roles = new ArrayList<String>();
+		
+//		strRoles = strRoles.replaceAll(" ", ""); // 띄워쓰기를 띄워쓰기 없는걸로 바꿔라!
+		
+		String[] roleArray = strRoles.replaceAll(" ", "").split(",");
+		
+		roles.addAll(Arrays.asList(roleArray));
+		
+//		String a1 = roleArray[0];
+//		String a2 = roleArray[1];
+//		String a3 = roleArray[2];
+//		
+//		roles.add(a1);
+//		roles.add(a2);
+//		roles.add(a3);
+		
+		System.out.println(roles);
+		
+		Collection<String> roleDates = new GrantedAuthority() {
+			
+			@Override
+			public Collection<String> getRoles(List<String> roles) {
+				List<String> roleList = new ArrayList<String>();
+				roleList.addAll(roles);
+				return roleList;
+			}
+		}.getRoles(roles);
+		
+	}
+
+}

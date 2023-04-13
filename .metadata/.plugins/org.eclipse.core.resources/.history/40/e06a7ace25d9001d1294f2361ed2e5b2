@@ -1,0 +1,31 @@
+package j19_익명클래스.role;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrincipalDetails {
+
+	public static void main(String[] args) {
+		
+		String strRoles = "USER_ROLE, ADMIN_ROLE, MANAGE_ROLE";
+		/*
+		 * strRoles를 roleArray 라는 배열에 
+		 * USER_ROLE
+		 * ADMIN_ROLE
+		 * MANAGE_ROLE
+		 * 를 넣고 이 배열을 roles 에 넣기.
+		 */
+		
+		List<String> roles = new ArrayList<String>();
+		
+		String[] roleArray = strRoles.split(",");
+		
+		String a1 = roleArray[0];
+		String a2 = roleArray[0];
+		String a3 = roleArray[0];
+		
+		System.out.println(a1);
+		
+	}
+
+}

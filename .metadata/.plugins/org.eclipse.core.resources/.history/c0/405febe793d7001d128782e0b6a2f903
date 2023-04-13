@@ -1,0 +1,58 @@
+package j17_컬렉션.HashMap;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Dictionary2 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 축구 -> soccer
+		 * 야구 -> baseball
+		 * 농구 -> basketball
+		 * 골프 -> golf
+		 */
+		
+		HashMap<String, String> strMap = new HashMap<String, String>();
+		Scanner scanner = new Scanner(System.in);
+		
+		strMap.put("축구", "soccer");
+		strMap.put("야구", "baseball");
+		strMap.put("농구", "basketball");
+		strMap.put("골프", "golf");
+		
+		String search = null;
+		
+		Iterator<Integer> irKey = strMap.keySet().iterator();
+		
+		while(true) {
+			
+			System.out.println("[사전검색기능]");
+			System.out.println("#프로그램종료(q)");
+			
+			System.out.println("검색어 : ");
+			search = scanner.nextLine();
+			
+			if(search.equals("q") {
+				System.out.println("프로그램 종료!");
+				break;
+			} else if(search.equals(strMap.get(irKey.next()))) {
+				System.out.println(search + " -> soccer");
+			} else if(search.equals("야구")) {
+				System.out.println(search + " -> baseball");
+			} else if(search.equals("농구")) {
+				System.out.println(search + " -> basketball");
+			} else if(search.equals("골프")) {
+				System.out.println(search + " -> golf");
+			} else {
+				System.out.println("지원하지 않는 단어입니다!");
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
